@@ -23,6 +23,12 @@
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
+    <style>
+        video{
+            max-width: 100vw;
+            max-height: 100vh;
+        }
+    </style>
 
   </head>
 
@@ -68,7 +74,7 @@
         <h2 class="text-center text-uppercase text-secondary mb-0">Description</h2>
         <hr class="star-dark mb-5">
         <div class="row">
-          <p>Instruction videos how the portfolio was setup.This portfolio was create</p>
+          <p>Instruction videos how the portfolio was setup.This portfolio was created with this <a href="https://startbootstrap.com/template-overviews/freelancer/">repo</a> by BlackrockDigital. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
         </div>
       </div>
@@ -79,14 +85,14 @@
       <div class="container">
         <h2 class="text-center text-uppercase text-white">Screen Shots</h2>
         <hr class="star-light mb-5">
-          <img class="img-fluid" src="img/screenshot/main.png" alt="Main Page Screenshots">
-          <img class="img-fluid" src="img/screenshot/skill.png" alt="Skills Page Screenshots">
-          <img class="img-fluid" src="img/screenshot/portfolio.png" alt="Portfolio Page Screenshots">
-          <img class="img-fluid" src="img/screenshot/contact.png" alt="Contact Page Screenshots">
+          <img class="img-fluid" src="img/screenshot/main.png" alt="Main Page Screenshots"><br>
+          <img class="img-fluid" src="img/screenshot/skill.png" alt="Skills Page Screenshots"><br>
+          <img class="img-fluid" src="img/screenshot/portfolio.png" alt="Portfolio Page Screenshots"><br>
+          <img class="img-fluid" src="img/screenshot/contact.png" alt="Contact Page Screenshots"><br>
           
         <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="#">
-            <i class="fa fa-download mr-2"></i>
+          <a class="btn btn-xl btn-outline-light" href="https://isanjaygaire.github.io/">
+            <i class="fa fa-links mr-2"></i>
             Visit Mainsite
           </a>
         </div>
@@ -99,7 +105,10 @@
         <h2 class="text-center text-uppercase text-secondary mb-0">Video</h2>
         <hr class="star-dark mb-5">
         <div class="row">
-        
+            <video controls="controls">
+                <source src="tutorial.mp4"  type="video/mp4" />
+                <track kind="subtitles" src="subtitles_en.vtt" srclang="en" />
+            </video>
         </div>
       </div>
     </section>
