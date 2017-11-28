@@ -1,9 +1,26 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:10.606
-This is the first subtitle.
+00:00:00.000 --> 00:00:14.606
+Find a Free Templete in Github and fork it on your own repo.
 
 2
-00:00:11.739 --> 00:00:23.074
-This is the second.
+00:00:16.739 --> 00:00:22.074
+Click on the repo that was just created.
+
+3
+00:00:16.739 --> 00:00:27.074
+Click on the Setting.
+
+4
+00:00:28.739 --> 00:00:43.074
+Change your repo's name and Source to Main Branch.
+
+5
+00:00:43.739 --> 00:01:00.074
+Clone the repo to your project folder.
+
+5
+00:1:45.739 --> 00:01:00.074
+Push to git as you change your code.
+
